@@ -9,7 +9,7 @@ class my_unit_tests(unittest.TestCase):
         self.assertEqual(my_add(2, 3), 5)
 
         # test adding negative integers
-        self.assertEqual(my_add(-6, 3), -3)
+        self.assertEqual(my_add(-1, -2), -3)
 
         # test adding floats
         self.assertEqual(my_add(3.1, 5.4), 8.5)
