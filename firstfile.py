@@ -1,5 +1,5 @@
-print('hello world')
+def my_add(a, b):
+    total = a + b
+    return total
 
-x = 5
-y = 10
-print(x + y)
+print(my_add(2,3))
