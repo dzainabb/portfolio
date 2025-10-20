@@ -15,4 +15,4 @@ date2 = np.datetime64(date)
 
 num_of_days = date1 - date2
 
-print(num_of_days)
+print(f"Number of days between today and the entered date: {num_of_days} ")
