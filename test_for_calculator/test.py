@@ -1,5 +1,5 @@
 import unittest
-from calculator_print import date1, date2
+from test_calculator import date1, date2
 
 # define the unit tests
 class my_unit_tests(unittest.TestCase):
@@ -11,4 +11,3 @@ class my_unit_tests(unittest.TestCase):
 # run the tests 
 if __name__ == "__main__":
     unittest.main()
-    
